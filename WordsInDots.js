@@ -145,16 +145,7 @@ Swarm.prototype.setMaxSpeed = function(max) {
   }  
 }
 
-
 //Change color
-//Swarm.prototype.changeColor = function(colors) {  
-//  this.colors = colors;
-//  for(var i = 0; i < this.vehicles.length; i++) {
-//   var vehicle = this.vehicles[i];
-//   vehicle.colors = colors;
-//  }  
-//}
-
 Swarm.prototype.changeColor = function(r, g, b) {
   this.colors = [r, g, b];
   for(var i = 0; i < this.vehicles.length; i++) {
