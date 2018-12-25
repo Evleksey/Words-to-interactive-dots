@@ -15,8 +15,6 @@ function draw() {
   background(51);
   swarm.iterate();
   
-  //if (time % 10 == 0) {console.log(time);}
-  
   if (time == 200) {
     swarm.changeColor(120,120,120);
     swarm.newWord("Here!", 500, 300, 160);
